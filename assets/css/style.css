@@ -1,0 +1,118 @@
+@font-face {
+    font-family: Roboto-bold;
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+@font-face {
+    font-family: Roboto-medium;
+    src: url("../fonts/Roboto-Medium.ttf");
+}
+@font-face {
+    font-family: Roboto-regular;
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+
+.wrap{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    font-size: 62.5%;
+
+}
+.container{
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+h1{
+    font-family: Roboto-bold;
+    font-size: 2.8rem;
+    text-align: center;
+}
+.form{
+    width: 400px;
+    margin-top: 3vh;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 25px;
+    font-size: 1.2rem;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+div label{
+    margin-right: 30px;
+    
+}
+input[type="text"], select, button, label {
+    padding: 5px ;
+    width: 100%;
+}
+
+.result-news {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-top: 25px;
+}
+.divNews {
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 25vw;
+    height: 400px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: .5s;
+}
+.divNews:hover{
+    transform: scale(1.02);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.divNews a{
+    margin-top: 25px;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: .5s;
+    font-size: 1rem;
+}
+.divNews a:hover{
+    background: rgb(0, 59, 0);
+    color: white;
+}
+img {
+    width: 170px;
+    height: 170px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+p{
+    margin-top: 15px;
+    font-size: 1rem;
+    font-family:Roboto-regular ;
+}
+h2{
+    font-size: 1.4rem;
+    font-family:Roboto-regular ;
+
+}
